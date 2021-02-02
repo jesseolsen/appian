@@ -23,6 +23,14 @@ function App() {
         >
           GitHub source repository
         </a>
+        <a
+          className="App-link"
+          href="https://code.google.com/archive/p/vector-playing-cards/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Attribution for the public domain playing card images
+        </a>
       </header>
     </div>
   );
