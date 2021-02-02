@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/appian/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/appian/static/js/main.bced74a6.chunk.js",
+    "main.js.map": "/appian/static/js/main.bced74a6.chunk.js.map",
+    "runtime-main.js": "/appian/static/js/runtime-main.8a398390.js",
+    "runtime-main.js.map": "/appian/static/js/runtime-main.8a398390.js.map",
+    "static/js/2.ddafca9d.chunk.js": "/appian/static/js/2.ddafca9d.chunk.js",
+    "static/js/2.ddafca9d.chunk.js.map": "/appian/static/js/2.ddafca9d.chunk.js.map",
+    "static/js/3.19cd23c0.chunk.js": "/appian/static/js/3.19cd23c0.chunk.js",
+    "static/js/3.19cd23c0.chunk.js.map": "/appian/static/js/3.19cd23c0.chunk.js.map",
+    "index.html": "/appian/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/appian/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.ddafca9d.chunk.js.LICENSE.txt": "/appian/static/js/2.ddafca9d.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/appian/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a398390.js",
+    "static/js/2.ddafca9d.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.bced74a6.chunk.js"
+  ]
+}
