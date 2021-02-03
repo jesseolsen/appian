@@ -1,4 +1,5 @@
 import './App.css';
+import Deck from './components/Deck';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
         <p>
           Appian code exercise
         </p>
+        <Deck />
         <a
           className="App-link"
           href="https://jesseolsen.github.io/appian/"
