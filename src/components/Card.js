@@ -1,5 +1,6 @@
 import '../App.css';
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const reqSvgs = require.context ('../images', true, /\.svg$/ )
 const svgs = reqSvgs
@@ -25,5 +26,8 @@ function Card(props) {
   );
 }
 
+Card.propTypes = {
+  name: PropTypes.string.isRequired
+};
 
 export default Card;

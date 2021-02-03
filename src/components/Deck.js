@@ -1,7 +1,6 @@
 import '../App.css';
 import { cards } from '../constants/cards';
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
 import Card from './Card';
 
 function Deck() {
@@ -31,7 +30,6 @@ function Deck() {
     }
     return next;
   }
-
   return (
     <div className="App">
         <Card name={`./${card}`} />
@@ -41,8 +39,5 @@ function Deck() {
     </div>
   );
 }
-Deck.propTypes = {
-  name: PropTypes.string.isRequired
-};
 
 export default Deck;
