@@ -10,7 +10,6 @@ function Deck() {
     let newDeck = [];
     while (deck.length > 0) {
       let i = Math.floor(Math.random() * Math.floor(deck.length));
-      console.log(i);
       newDeck.push(deck[i]);
       deck.splice(i, 1);
     }
@@ -19,9 +18,7 @@ function Deck() {
   const dealOneCard = () => {
     let next = 'done';
     if (deck.length >= 0) {
-      console.log(deck);
       next = deck.pop();
-      console.log('next', next);
       if (next === undefined) {
         next = 'done';
       }
