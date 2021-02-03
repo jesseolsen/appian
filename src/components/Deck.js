@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Card from './Card';
 
 function Deck() {
-  const [deck, setDeck] = useState(cards);
+  const [deck, setDeck] = useState([...cards]);
   const [card, setCard] = useState('new');
   const shuffle = () => {
     let newDeck = [];
@@ -30,12 +30,18 @@ function Deck() {
     }
     return next;
   }
+  const reset = () => {
+    setDeck([...cards]);
+    setCard('new');
+  }
   return (
     <div className="App">
         <Card name={`./${card}`} />
         <br/>
+        <p>{deck.length} cards left in the deck.</p>
         <button onClick={shuffle}>Shuffle</button>
         <button onClick={dealOneCard}>Deal</button>
+        <button onClick={reset}>Reset</button>
     </div>
   );
 }
